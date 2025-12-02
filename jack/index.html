@@ -4,7 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jack Yu | Curator of Curiosities</title>
+    
+    <!-- Google Fonts: Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Playfair Display"', 'serif'],
+              serif: ['"Playfair Display"', 'serif'],
+              mono: ['"Playfair Display"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+
     <style>
       /* Custom Scrollbar */
       ::-webkit-scrollbar {
@@ -20,6 +40,10 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #a8a29e; 
       }
+      
+      body {
+        font-family: "Playfair Display", serif;
+      }
     </style>
 
   <script type="importmap">
@@ -33,9 +57,9 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/jack/assets/index-B_7_mjxk.js"></script>
+  <script type="module" crossorigin src="/jack/assets/index-jE9NWS0l.js"></script>
 </head>
-  <body class="bg-stone-50 text-stone-800 antialiased selection:bg-rose-200 selection:text-rose-900">
+  <body class="bg-stone-50 text-stone-800 antialiased selection:bg-rose-200 selection:text-rose-900 font-serif">
     <div id="root"></div>
 </body>
 </html>
